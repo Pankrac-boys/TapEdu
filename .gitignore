@@ -1,0 +1,5 @@
+#Sem si muze dat kazdy co chce, podle toho jake bs si prida do adresare tapedu
+/temp
+/.vscode
+/gui/__pycache__
+Dockerfile
