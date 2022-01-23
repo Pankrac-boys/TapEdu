@@ -2,4 +2,6 @@
 /temp
 /.vscode
 /gui/__pycache__
+/.pytest_cache
 Dockerfile
+ex.jpg

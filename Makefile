@@ -1,3 +1,6 @@
 package:
 	pyinstaller --onefile app.py
-clear:
+run:
+	py -3.9 gui/app.py
+clean:
+	
