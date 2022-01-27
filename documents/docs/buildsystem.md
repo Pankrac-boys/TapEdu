@@ -1,7 +1,7 @@
 # Buildsystem
 Build system is based on pyinstaller and CMake.
 ## Tasks
-Makefile has following tasks:
+The Makefile has the following tasks:
 * Package - builds .exe file
-* Clean - cleans files produced by build
-* Run - runs TabEdu as python script
+* Clean - cleans files produced by the build
+* Run - runs TabEdu as a python script

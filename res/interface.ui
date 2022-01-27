@@ -25,7 +25,7 @@
         <layout manager="pack">
           <property name="anchor">nw</property>
           <property name="propagate">True</property>
-          <property name="side">top</property>
+          <property name="side">left</property>
         </layout>
         <child>
           <object class="tk.Frame" id="frame5">
@@ -71,6 +71,18 @@
             </child>
           </object>
         </child>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Frame" id="frame3">
+        <property name="background">#ffffff</property>
+        <property name="height">37</property>
+        <property name="width">1900</property>
+        <layout manager="pack">
+          <property name="anchor">ne</property>
+          <property name="propagate">True</property>
+          <property name="side">top</property>
+        </layout>
       </object>
     </child>
     <child>

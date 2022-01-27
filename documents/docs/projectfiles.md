@@ -11,7 +11,7 @@
 ├── documents
 │   ├── docs
 │   └── images
-└── res                     <- For icons, UI layouts etc.
+└── res                     <- For icons, UI layouts, etc.
     └── icong.png
         ...
 ```

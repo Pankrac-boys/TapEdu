@@ -1,6 +1,5 @@
 #Build with Pygubu. Used .ui file in res directory
 import pathlib
-import pygubu
 import tkinter as tk
 import tkinter.ttk as ttk
 import cvis
@@ -32,7 +31,10 @@ class App:
         self.frame5.configure(height='200', width='2000')
         self.frame5.pack(side='top')
         self.frame1.configure(background='#ffffff', height='200', width='2000')
-        self.frame1.pack(anchor='nw', side='top')
+        self.frame1.pack(anchor='nw', side='left')
+        self.frame3 = tk.Frame(self.root)
+        self.frame3.configure(background='#ffffff', height='37', width='1900')
+        self.frame3.pack(anchor='ne', side='top')
         self.calculator = tk.Frame(self.root)
         self.labelCalculator = tk.Label(self.calculator)
         self.labelCalculator.configure(background='#ffffff', cursor='arrow', font='{@Ariel} 12 {}', foreground='#6f81ff')
@@ -89,5 +91,3 @@ class App:
 if __name__ == '__main__':
     app = App()
     app.run()
-
-
