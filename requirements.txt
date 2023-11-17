@@ -1,7 +1,0 @@
-tk
-Pillow
-pyinstaller
-pydot-ng
-opencv-python
-numpy
-pygubu-designer

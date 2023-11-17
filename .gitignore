@@ -1,7 +1,12 @@
-#Sem si muze dat kazdy co chce, podle toho jake bs si prida do adresare tapedu
 /temp
 /.vscode
-/gui/__pycache__
+**/__pycache__
 /.pytest_cache
-Dockerfile
+/build
+/TapEdu.egg-info
+/dist
+/scripts
+
+app.spec
 ex.jpg
+Dockerfile
